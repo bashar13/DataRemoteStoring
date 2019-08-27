@@ -6,7 +6,7 @@
 //  Copyright © 2019 Jahid Bashar. All rights reserved.
 //
 
-//Composite Class (parent of leaf class comment in the hierarchy)
+//Composite Class (parent of the leaf class RPComment in the hierarchy)
 import Foundation
 
 class RPAnnotation: Codable {
@@ -15,7 +15,7 @@ class RPAnnotation: Codable {
     var user: String?
     var dateTime: String?
     var desc: String?
-    var comments: [RPComment]?
+    var comments: [RPComment]? //Collection of comments
     
     func addComment(comment: RPComment) {
         comments?.append(comment)
