@@ -6,6 +6,7 @@
 //  Copyright © 2019 Jahid Bashar. All rights reserved.
 //
 
+//Composite Class (parent of leaf class comment in the hierarchy)
 import Foundation
 
 class RPAnnotation: Codable {

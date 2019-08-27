@@ -6,6 +6,8 @@
 //  Copyright © 2019 Jahid Bashar. All rights reserved.
 //
 
+//leaf class of composite design pattern
+
 import Foundation
 
 struct RPComment: Codable {
