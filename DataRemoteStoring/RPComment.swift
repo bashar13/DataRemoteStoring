@@ -10,14 +10,16 @@
 
 import Foundation
 
-struct RPComment: Codable {
+struct RPComment: RPProtocol, Codable {
+    let id: String
+    let user: String
+    let dateTime: String
+    let desc: String
     
-    var id: String
-    var user: String
-    var dateTime: String
-    var desc: String
-    
-    func printComment() {
-        print(desc)
+    enum CodingKeys: String, CodingKey {
+        case id
+        case user
+        case dateTime
+        case desc
     }
 }

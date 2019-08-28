@@ -9,25 +9,20 @@
 //Composite Class (parent of the leaf class RPComment in the hierarchy)
 import Foundation
 
-class RPAnnotation: Codable {
+struct RPAnnotation: RPProtocol, Codable {
     
-    var id: String?
-    var user: String?
-    var dateTime: String?
-    var desc: String?
-    var comments: [RPComment]? //Collection of comments
+    let id: String
+    let user: String
+    let dateTime: String
+    let desc: String
+    let comments: [RPComment]? //Collection of comments
     
-    func addComment(comment: RPComment) {
-        comments?.append(comment)
-    }
-    
-    func printAnnonation() {
-        if let d = desc {
-            print(d)
-        }
-        comments?.forEach {
-            print($0)
-        }
+    enum CodingKeys: String, CodingKey {
+        case id
+        case user
+        case dateTime
+        case desc
+        case comments
     }
 }
 

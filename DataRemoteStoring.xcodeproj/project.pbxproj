@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211DEEF923163727006317A4 /* RemoteStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211DEEF823163727006317A4 /* RemoteStorageManager.swift */; };
+		211DEEFB23163A23006317A4 /* RPProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211DEEFA23163A23006317A4 /* RPProtocol.swift */; };
 		21CE15F02314EA900096B9EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE15EF2314EA900096B9EF /* AppDelegate.swift */; };
 		21CE15F22314EA900096B9EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CE15F12314EA900096B9EF /* ViewController.swift */; };
 		21CE15F52314EA900096B9EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21CE15F32314EA900096B9EF /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		211DEEF823163727006317A4 /* RemoteStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteStorageManager.swift; sourceTree = "<group>"; };
+		211DEEFA23163A23006317A4 /* RPProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPProtocol.swift; sourceTree = "<group>"; };
 		21CE15EC2314EA900096B9EF /* DataRemoteStoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataRemoteStoring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21CE15EF2314EA900096B9EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21CE15F12314EA900096B9EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				21CE15FB2314EA920096B9EF /* Info.plist */,
 				21CE16032314F5840096B9EF /* RPAnnotation.swift */,
 				21CE16012314EAEB0096B9EF /* RPComment.swift */,
+				211DEEF823163727006317A4 /* RemoteStorageManager.swift */,
+				211DEEFA23163A23006317A4 /* RPProtocol.swift */,
 			);
 			path = DataRemoteStoring;
 			sourceTree = "<group>";
@@ -142,9 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				21CE15F22314EA900096B9EF /* ViewController.swift in Sources */,
+				211DEEF923163727006317A4 /* RemoteStorageManager.swift in Sources */,
 				21CE15F02314EA900096B9EF /* AppDelegate.swift in Sources */,
 				21CE16042314F5840096B9EF /* RPAnnotation.swift in Sources */,
 				21CE16022314EAEB0096B9EF /* RPComment.swift in Sources */,
+				211DEEFB23163A23006317A4 /* RPProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
