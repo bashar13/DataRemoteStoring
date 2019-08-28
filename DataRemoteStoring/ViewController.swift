@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         comments.append(rpComment2)
         
         //stores the instance of RPAnnotation
-        //we can use a similar approach to store the instances of any other data models that inherits the RPPRotocol
+        //we can use a similar approach to store the instances of any other data models that inherits the RPPRotocol (Polymorphism concept of OOP)
         //we can store the instance of RPComment seperately in a similar way.
         let rpAnnotation = RPAnnotation(id: "qwewq121", user: "Jon", dateTime: "Some date", desc: "Hi", comments: comments)
         let annotationEndPoint = "/annotation"
